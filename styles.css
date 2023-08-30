@@ -1,0 +1,298 @@
+/* Add your custom styling here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: white;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  
+  .logo p {
+    font-size: 1rem;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  .bg-black {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Center-align text in the description section */
+  #description {
+    text-align: center;
+    padding: 0 20px; /* Add some padding to the sides for better readability */
+  }
+  
+  #description h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  #description p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  #description .mt-8 {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  /* Your existing styles */
+
+/* Add this style to color the links */
+.text-gray-400 a {
+    color: #1a3f79;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .text-gray-400 a:hover {
+    color: rgb(240, 170, 6);
+  }
+  
+  /* Your existing styles */
+  /* Add your custom styling here */
+/* ... (other styles) */
+
+/* Change the background color of the contact box */
+.bg-contact {
+    background-color: #1a3f79;
+    color: white; /* Set text color to white for better contrast */
+    padding: 10px 20px; /* Increase the padding for larger box */
+    font-size: 1rem; /* Keep the font size the same */
+  }
+  
+ 
+  /* Add your custom styling here */
+/* ... (other styles) */
+
+/* Define custom box and link classes */
+.custom-box {
+    background-color: #1a3f79;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 20px;
+  }
+  
+  .custom-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .custom-link:hover {
+    color: rgb(240, 170, 6);
+  }
+  
+  /* ... (other styles) */
+
+  /* Define custom box and link classes */
+.custom-box2 {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+  
+ 
+  
+  /* ... (other styles) */
+
+  /* Add your custom styling here */
+
+/* ... (existing styles) */
+
+/* Set the background image for the description section */
+#description {
+    background-image: url('images/globe 2.png');
+    background-size: cover; /* Adjust the background size */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    color: white; /* Set text color to contrast with the background image */
+  }
+  
+  /* Adjust styling for proper visibility on the background image */
+  #description .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color to the container */
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  #description .text-center {
+    margin-top: 100px; /* Adjust the top margin to position the content */
+  }
+  
+  #description h3,
+  #description p {
+    color: #333; /* Set text color to contrast with the background */
+  }
+  
+  /* ... (existing styles) */
+  
+
+  /* Add your custom styling here */
+
+/* ... (existing styles) */
+
+/* Set the background image for the hero section */
+#hero {
+    background-size: cover; /* Adjust the background size */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    color: white; /* Set text color to contrast with the background image */
+  }
+  
+  /* Adjust styling for proper visibility on the background image */
+  #hero .container {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color to the container */
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  #hero h1,
+  #hero p {
+    color: white; /* Set text color to contrast with the background */
+  }
+  
+  /* ... (existing styles)
+  
+
+  /* Add your custom styling here */
+
+/* ... (existing styles) */
+
+/* Adjust the margin value for the image container */
+#description .flex.justify-center.mt-3 {
+    margin-top: .01rem; /* Adjust the margin value */
+  }
+  
+  /* ... (existing styles) */
+  
+  /* Increase spacing between navigation links */
+.nav-link {
+    margin-right: 30px; /* Adjust the value as needed for your desired spacing */
+  }
+  
+  /* Add your custom styling here */
+
+/* About Section Styling */
+#about {
+    background-color: #f7f7f7;
+    padding: 80px 0; /* Adjust padding as needed */
+  }
+  
+  #about .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  #about .grid img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #1a3f79; /* Match your brand colors */
+  }
+  
+  #about p {
+    font-size: 1rem;
+    color: #555; /* Adjust as needed */
+  }
+  
+  /* ... (other styles) */
+  
+  /* Add your custom styling here */
+  
+  /* Add your custom styling here */
+
+/* About Section Styling */
+#about {
+    background-color: #f7f7f7;
+    padding: 80px 0; /* Adjust padding as needed */
+  }
+  
+  #about .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  #about .grid img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #1a3f79; /* Match your brand colors */
+  }
+  
+  #about ul {
+    list-style-type: none; /* Remove default list-style */
+    padding-left: 0; /* Reset default padding */
+  }
+  
+  #about ul li::before {
+    content: "\2022"; /* Unicode character for bullet point */
+    color: #1a3f79; /* Match your brand colors */
+    font-size: 1.2rem;
+    margin-right: 0.5rem; /* Adjust spacing as needed */
+  }
+  
+  #about p {
+    font-size: 1rem;
+    color: #555; /* Adjust as needed */
+  }
+  
+  /* ... (other styles) */
+  
+  /* Add your custom styling here */
+  
